@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.apps.jerdog.tinytoggle"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+	<ImageView
+		android:id="@+id/phone_icon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:src="@drawable/phone_on" />
+	<Button
+		android:id="@+id/toggleButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="Toggle Silent Mode" />
+	<com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		myapp:backgroundColor="#000000"
+		myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC" />
+<!--	<ImageView id="@+id/splashscreen" -->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="fill_parent" -->
+<!--		android:src="@drawable/splash"-->
+<!--		android:layout_gravity="center" />-->
+<!--	<TextView android:layout_width="match_parent"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:textColor="#FFFFFF" -->
+<!--		android:text="Hello World, splash" />-->
+</LinearLayout>
+
